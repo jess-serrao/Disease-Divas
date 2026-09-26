@@ -9,13 +9,13 @@ Using R, this project explores relationships among sequencing center, treatment 
 ## Research Aims
 
 - Aim 1: Volume by center of sequencing
-  1.1. Analyze aspects of the data against the center of sequencing, search for a possible batch effect, or difference in statistical            values based on geographic origin.
+  --1.1. Analyze aspects of the data against the center of sequencing, search for a possible batch effect, or difference in statistical            values based on geographic origin.
 - Aim 2: Classify tumor by benign or tumor based on tumor content
-  2.1. Analyze the tumor content column and possibly come up with a metric based on threshold values to classify a case as malignant or          benign based on the data available in the data set.
+  --2.1. Analyze the tumor content column and possibly come up with a metric based on threshold values to classify a case as malignant or          benign based on the data available in the data set.
 - Aim 3: Create classification of mutation rate based on mutation count 
-  3.1 Assign classifications of “high”, “medium” or “low” based on the intensity of mutation count. 
+  --3.1 Assign classifications of “high”, “medium” or “low” based on the intensity of mutation count. 
 - Aim 4: Based on mutation count and age of diagnosis come up with prediction of death date
-  4.1 Perform regression on the available data to possibly predict case outcome and timeline controlling for covariates such as location    of exome sequencing and tumor site. 
+  --4.1 Perform regression on the available data to possibly predict case outcome and timeline controlling for covariates such as location of exome sequencing and tumor site. 
 
 
 ## Data Source
