@@ -6,20 +6,19 @@ Graduate data-wrangling project analyzing public clinical and genomic data from 
 
 Using R, this project explores relationships among sequencing center, treatment exposure, tumor characteristics, patient age at diagnosis, fraction of genome altered, and mutation count. The analysis emphasizes reproducible data cleaning, exploratory analysis, and clinically relevant feature classification.
 
-
 ## Research Aims
 
-- **Aim 1: Assess volume by sequencing center**
-  - Analyze data by sequencing center to identify potential batch effects or differences in statistical values by geographic origin.
+- Aim 1: Volume by center of sequencing
+  - 1.1. Analyze aspects of the data against the center of sequencing, search for a possible batch effect, or difference in statistical values based on geographic origin.
 
-- **Aim 2: Examine tumor content**
-  - Analyze tumor-content values and explore threshold-based classifications using the available data.
+- Aim 2: Classify tumor by benign or tumor based on tumor content
+  - 2.1. Analyze the tumor content column and possibly come up with a metric based on threshold values to classify a case as malignant or benign based on the data available in the data set.
 
-- **Aim 3: Classify mutation burden**
-  - Assign low-, medium-, and high-mutation-burden categories based on mutation count.
+- Aim 3: Create classification of mutation rate based on mutation count
+  - 3.1 Assign classifications of “high”, “medium” or “low” based on the intensity of mutation count.
 
-- **Aim 4: Explore associations with clinical outcomes**
-  - Assess whether mutation count and age at diagnosis are associated with available outcome measures, controlling for sequencing location and tumor site.
+- Aim 4: Based on mutation count and age of diagnosis come up with prediction of death date
+  - 4.1 Perform regression on the available data to possibly predict case outcome and timeline controlling for covariates such as location of exome sequencing and tumor site.
 
 ## Data Source
 
