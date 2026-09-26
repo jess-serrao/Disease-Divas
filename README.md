@@ -46,7 +46,7 @@ The dataset includes clinical and sequencing-related variables for 150 patients 
 
 ```text
 ├── data/             # Data dictionary or instructions for downloading source data
-├── notebooks/        # R Markdown analyses
+├── notebook/        # R Markdown analyses
 ├── scripts/          # Data-cleaning and analysis scripts
 ├── figures/          # Exported visualizations
 ├── README.md
